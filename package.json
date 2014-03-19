@@ -1,0 +1,26 @@
+{
+  "name": "shelljs-nodecli",
+  "author": "Nicholas C. Zakas",
+  "version": "0.0.0",
+  "description": "ShellJS Node CLI Extension",
+  "main": "./lib/shelljs-nodecli.js",
+  "scripts": {
+    "test": "node Makefile.js",
+    "lint": "node Makefile.js lint",
+    "patch": "node Makefile.js patch",
+    "minor": "node Makefile.js minor",
+    "major": "node Makefile.js major"
+  },
+  "dependencies": {
+    "shelljs": "^0.2"
+  },
+  "devDependencies": {
+    "chai": "^1.9.0",
+    "sinon": "^1.9.0",
+    "istanbul": "^0.1.45",
+    "mocha": "^1.13.0",
+    "eslint": "^0.4",
+    "rewire": "^2.0.0"
+  },
+  "license": "MIT"
+}
