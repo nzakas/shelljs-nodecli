@@ -1,7 +1,7 @@
 {
   "name": "shelljs-nodecli",
   "author": "Nicholas C. Zakas",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ShellJS Node CLI Extension",
   "main": "./lib/shelljs-nodecli.js",
   "scripts": {
