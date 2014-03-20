@@ -12,15 +12,15 @@
     "major": "node Makefile.js major"
   },
   "dependencies": {
-    "shelljs": "^0.2"
+    "shelljs": "~0.2"
   },
   "devDependencies": {
-    "chai": "^1.9.0",
-    "sinon": "^1.9.0",
-    "istanbul": "^0.1.45",
-    "mocha": "^1.13.0",
-    "eslint": "^0.4",
-    "rewire": "^2.0.0"
+    "chai": "~1.9.0",
+    "sinon": "~1.9.0",
+    "istanbul": "~0.1.45",
+    "mocha": "~1.13.0",
+    "eslint": "~0.4",
+    "rewire": "~2.0.0"
   },
   "license": "MIT"
 }
