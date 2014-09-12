@@ -4,6 +4,10 @@
   "version": "0.1.1",
   "description": "ShellJS Node CLI Extension",
   "main": "./lib/shelljs-nodecli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nzakas/shelljs-nodecli"
+  },
   "scripts": {
     "test": "node Makefile.js",
     "lint": "node Makefile.js lint",
