@@ -99,6 +99,20 @@ describe("nodeCLI", function() {
 
 	});
 
+	describe("loading", function() {
+		it("does not override existing globals", function() {
+			var otherExec = function() {};
 
+			global.exec = otherExec;
+
+			Object.keys(require.cache).forEach(function(key) {
+				delete require.cache[key];
+			});
+
+			require("../..");
+
+			assert.equal(global.exec, otherExec);
+		});
+	});
 
 });
